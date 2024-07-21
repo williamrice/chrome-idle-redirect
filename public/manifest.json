@@ -1,0 +1,13 @@
+{
+  "name": "Idle Redirect",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["idle"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
